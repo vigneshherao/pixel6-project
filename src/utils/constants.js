@@ -35,7 +35,7 @@ export const User_DATA = "https://dummyjson.com/users";
     },
     {
       name: "Demography",
-      selector: (row) =>  `${row.gender === 'Male' ? 'M' : 'F'}/${row.age}`,
+      selector: (row) =>  `${row.gender === 'male' ? 'M' : 'F'}/${row.age}`,
       sortable: false,
     },
     {

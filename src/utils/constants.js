@@ -50,3 +50,27 @@ export const User_DATA = "https://dummyjson.com/users";
     },
   ];
   
+
+
+  export const Gender = [
+    {
+      data : "male",
+      id:1
+    },
+    {
+      data:"female",
+      id:2
+    }
+  ]
+
+
+  export const Filter_Btns = [
+    {
+      data : "Country",
+      id:1
+    },
+    {
+      data:"Gender",
+      id:2
+    }
+  ]

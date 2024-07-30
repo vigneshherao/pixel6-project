@@ -1,19 +1,34 @@
-import React from 'react'
-import { FaAngleDown } from "react-icons/fa6";
+import React, { useState } from "react";
+import useFetchUsers from "../utils/useFetchUsers";
+import DropDown from "./DropDown";
 
 const FilterBtns = () => {
-  return (
-    <div className='flex justify-between'>
-        <div className='flex justify-center items-center border w-28 p-1  text-red-500 mr-2 rounded-md'>
-            <button className='mr-1'>Country</button>
-            <FaAngleDown />
-        </div>
-        <div className='flex justify-center items-center border w-28 p-1  text-red-500 rounded-md'>
-            <button className='mr-1'>Gender</button>
-            <FaAngleDown />
-        </div>
-    </div>
-  )
-}
+  const [isCountry, setIsCountry] = useState(false);
+  const [isGender, setIsGender] = useState(false);
 
-export default FilterBtns
+
+  const users = useFetchUsers();
+  const countries = Array.from(new Set(users.map(user => user.address.country)));
+  const genders = Array.from(new Set(users.map(user => user.gender)));
+
+  
+
+  const toggleCountryBtn = () => {
+    setIsCountry(!isCountry);
+    
+  };
+
+  const toggleGenderBtn = () => {
+    setIsGender(!isGender);
+  };
+
+
+  return (
+    <div className="flex justify-between">
+      <DropDown toggleDropdown={toggleCountryBtn} isOpen={isCountry} items={countries}/>
+      <DropDown toggleDropdown={toggleGenderBtn} isOpen={isGender} items={genders}/>
+    </div>
+  );
+};
+
+export default FilterBtns;

@@ -25,8 +25,8 @@ const FilterBtns = () => {
 
   return (
     <div className="flex justify-between">
-      <DropDown toggleDropdown={toggleCountryBtn} isOpen={isCountry} items={countries}/>
-      <DropDown toggleDropdown={toggleGenderBtn} isOpen={isGender} items={genders}/>
+      <DropDown text={"Country"} toggleDropdown={toggleCountryBtn} isOpen={isCountry} items={countries}/>
+      <DropDown text={"Gender"}  toggleDropdown={toggleGenderBtn} isOpen={isGender} items={genders}/>
     </div>
   );
 };

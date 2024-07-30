@@ -1,8 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import { User_DATA } from "./constants";
+import { useDispatch } from "react-redux";
+import { addUsersData } from "./dataSlice";
 
 const useFetchUsers = () => {
-  const [users, setUsers] = useState([]);
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     userData();
@@ -11,11 +14,8 @@ const useFetchUsers = () => {
   const userData = async () => {
     const data = await fetch(User_DATA);
     const dataJson = await data.json();
-    setUsers(dataJson?.users);
+    dispatch(addUsersData(dataJson?.users));
   };
-
-
-  return users;
 };
 
 

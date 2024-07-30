@@ -1,10 +1,14 @@
 import DataTable from "react-data-table-component";
 import { COLUMNS } from "../utils/constants";
 import useFetchUsers from "../utils/useFetchUsers";
+import { useSelector } from "react-redux";
 
 const TableBody = () => {
+
+  const users = useSelector((store) => store?.users?.users);
   
-  const users = useFetchUsers();
+   useFetchUsers();
+   
 
   return (
     <div className="sm:mx-16 mt-10">

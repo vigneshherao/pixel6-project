@@ -3,6 +3,14 @@ export const LOGO =
 export const MENU =
   "https://thumb.ac-illust.com/41/41a956254bcd191e942220ca7fb13d71_t.jpeg";
 
+export const Company_NAME = 'Pixel';
+export const Digit = '6';
+
+export const Table_Heading = "Employees";
+
+
+export const User_DATA = "https://dummyjson.com/users";
+
   export const COLUMNS = [
     {
       name: "ID",

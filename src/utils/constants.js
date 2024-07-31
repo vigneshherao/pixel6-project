@@ -9,7 +9,7 @@ export const Digit = '6';
 export const Table_Heading = "Employees";
 
 
-export const User_DATA = "https://dummyjson.com/users";
+export const User_DATA = "https://dummyjson.com/users?limit=";
 
   export const COLUMNS = [
     {

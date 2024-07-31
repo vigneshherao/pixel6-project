@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import DropDown from "./DropDown";
-import { useSelector } from "react-redux";
 import useUserInfo from "../hooks/useUserInfo";
 
 const FilterBtns = () => {

@@ -1,17 +1,14 @@
 import React, { useState } from "react";
-import useFetchUsers from "../utils/useFetchUsers";
 import DropDown from "./DropDown";
 import { useSelector } from "react-redux";
+import useUserInfo from "../utils/useUserInfo";
 
 const FilterBtns = () => {
   const [isCountry, setIsCountry] = useState(false);
   const [isGender, setIsGender] = useState(false);
 
 
-  const users = useSelector((store) => store?.users?.users);
-  const countries = Array.from(new Set(users.map(user => user.address.country)));
-  const genders = Array.from(new Set(users.map(user => user.gender)));
-
+  const [countries,genders] = useUserInfo();
   
 
   const toggleCountryBtn = () => {

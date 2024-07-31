@@ -2,7 +2,7 @@ import React from 'react'
 import FilterBtns from "./FilterBtns" 
 import { Table_Heading } from '../utils/constants'
 
-const TableHeader = () => {
+const BodyHeader = () => {
   return (
     <div className='sm:mx-20 mt-24 flex justify-between'>
         <div>
@@ -15,4 +15,4 @@ const TableHeader = () => {
   )
 }
 
-export default TableHeader
+export default BodyHeader

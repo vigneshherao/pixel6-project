@@ -1,11 +1,11 @@
 import React from 'react'
-import TableHeader from './TableHeader'
+import BodyHeader from './BodyHeader'
 import TableBody from './TableBody'
 
 const Body = () => {
   return (
     <div>
-        <TableHeader/>
+        <BodyHeader/>
         <TableBody/>
     </div>
   )

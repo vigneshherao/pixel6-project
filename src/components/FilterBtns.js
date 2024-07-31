@@ -7,7 +7,7 @@ const FilterBtns = () => {
   const [isCountry, setIsCountry] = useState(false);
   const [isGender, setIsGender] = useState(false);
 
-
+  //Array destructing from useUserInfo hook(it will return filter btn options)
   const [countries,genders] = useUserInfo();
   
 

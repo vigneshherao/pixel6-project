@@ -12,6 +12,7 @@ const useFilterData = (item) => {
   
   const filterData = (item) => {
     let filteredData;
+    //if the selected item check gener or the country
     if (item === "United States") {
       filteredData = usersData.filter(
         (user) => user?.address?.country === item

@@ -1,7 +1,7 @@
 import { useEffect} from "react";
-import { User_DATA } from "./constants";
+import { User_DATA } from "../utils/constants";
 import { useDispatch } from "react-redux";
-import { addUsersData } from "./dataSlice";
+import { addUsersData } from "../utils/dataSlice";
 
 const useFetchUsers = () => {
 

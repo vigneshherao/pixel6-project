@@ -1,6 +1,6 @@
 import DataTable from "react-data-table-component";
 import { COLUMNS } from "../utils/constants";
-import useFetchUsers from "../utils/useFetchUsers";
+import useFetchUsers from  "../hooks/useFetchUsers";
 import { useSelector } from "react-redux";
 import Shimmer from "./Shimmer";
 

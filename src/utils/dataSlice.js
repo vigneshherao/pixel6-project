@@ -11,10 +11,13 @@ const dataSlice = createSlice({
             state.users = action.payload;
             state.usersData = action.payload;
         },
+        addFilterdData:(state,action)=>{
+            state.usersData = action.payload;
+        }
         
     }
 })
 
-export const {addUsersData} = dataSlice.actions;
+export const {addUsersData,addFilterdData} = dataSlice.actions;
 
 export default dataSlice.reducer;

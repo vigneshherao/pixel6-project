@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 
 const TableBody = () => {
 
-  const users = useSelector((store) => store?.users?.users);
+  const users = useSelector((store) => store?.users?.usersData);
   
-   useFetchUsers();
+  useFetchUsers();
    
 
   return (

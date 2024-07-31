@@ -4,17 +4,20 @@ import { useSelector } from "react-redux";
 import useUserInfo from "../hooks/useUserInfo";
 
 const FilterBtns = () => {
+  //State varibale for status of filter button
   const [isCountry, setIsCountry] = useState(false);
   const [isGender, setIsGender] = useState(false);
 
   //Array destructing from useUserInfo hook(it will return filter btn options)
   const [countries,genders] = useUserInfo();
   
-
+  //Function will toggle the state varibale
   const toggleCountryBtn = () => {
     setIsCountry(!isCountry);
     
   };
+
+  //Function will toggle the state varibale
 
   const toggleGenderBtn = () => {
     setIsGender(!isGender);

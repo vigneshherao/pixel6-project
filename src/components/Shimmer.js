@@ -7,24 +7,24 @@ const Shimmer = () => {
         <tbody className="bg-white divide-y divide-gray-200">
           <tr className="animate-pulse">
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
+              <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-48 rounded"></div>
+            <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-32 rounded"></div>
+            <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
+            <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
+            <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
           </tr>
           <tr className="animate-pulse">
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
+              <div className="bg-gray-200 h-4 w-34 rounded"></div>
             </td>
             <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
               <div className="bg-gray-200 h-4 w-48 rounded"></div>
@@ -39,57 +39,7 @@ const Shimmer = () => {
               <div className="bg-gray-200 h-4 w-24 rounded"></div>
             </td>
           </tr>
-          <tr className="animate-pulse">
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-48 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-32 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-          </tr>
-          <tr className="animate-pulse">
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-48 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-32 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-          </tr>
-          <tr className="animate-pulse">
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-48 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-32 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-            <td className="px-2 py-4 sm:px-6 whitespace-nowrap">
-              <div className="bg-gray-200 h-4 w-24 rounded"></div>
-            </td>
-          </tr>
+
         </tbody>
       </table>
     </div>
